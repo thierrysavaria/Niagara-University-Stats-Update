@@ -1,4 +1,4 @@
-function appendMissingPlayers() {
+function appendMissingPlayers_NOJHL() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var nojhlSheet = ss.getSheetByName("NOJHL");
   var rosterSheet = ss.getSheetByName("Roster_Update_NOJHL");
