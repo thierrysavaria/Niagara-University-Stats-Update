@@ -1,4 +1,4 @@
-function appendMissingPlayers() {
+function appendMissingPlayers_CCHL() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var cchlSheet = ss.getSheetByName("CCHL");
   var rosterSheet = ss.getSheetByName("Roster_Update_CCHL");
