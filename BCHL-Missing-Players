@@ -1,4 +1,4 @@
-function appendMissingPlayers() {
+function appendMissingPlayers_BCHL() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var bchlSheet = ss.getSheetByName("BCHL");
   var rosterSheet = ss.getSheetByName("Roster_Update_BCHL");
